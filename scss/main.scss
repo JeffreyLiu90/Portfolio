@@ -33,17 +33,11 @@ img {
   width: 100%;
 }
 
-// Logo
-#logo {
-  width: 70px;
-  height: 70px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
 // Main Nav
 #main-nav {
   display: flex;
+
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding-top: 1rem;
 
@@ -94,8 +88,12 @@ img {
 
   // Header Inner
   &-inner {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background: $bg-image no-repeat 20% 30% / cover;
-    height: 5.5rem;
+
+    height: 7rem;
     border-bottom: 3px solid $main-color;
   }
 }
@@ -216,16 +214,24 @@ img {
         "bioimage bio bio"
         "aw1 aw2 aw3";
       grid-gap: 1.2rem;
+      height: 470px;
+
+      p {
+        font-size: 1rem;
+        text-align: left;
+      }
     }
 
     .bio-image {
       grid-area: bioimage;
+
       height: 350px;
       width: 350px;
     }
 
     .bio {
       grid-area: bio;
+      height: 480px;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
     }
