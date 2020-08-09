@@ -99,6 +99,8 @@ input[class^="btn-"]:hover {
   position: relative;
   background: #ffbc00;
   overflow: hidden; }
+  .item .gifs {
+    height: 350px; }
   .item::after {
     content: "";
     position: absolute;
@@ -161,7 +163,13 @@ input[class^="btn-"]:hover {
     text-transform: uppercase;
     font-size: 1.2rem;
     opacity: 0.7;
-    margin: 0; }
+    margin: 0;
+    color: white; }
+
+.appname {
+  color: white; }
+  .appname:hover {
+    color: #492bb6; }
 
 * {
   margin: 0;
