@@ -4,6 +4,13 @@
   margin: auto;
   overflow: hidden; }
 
+.project-container {
+  max-width: 1280px;
+  padding: 1.5rem;
+  margin: auto;
+  overflow: hidden;
+  height: 30vh; }
+
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -46,7 +53,7 @@ input[class^="btn-"]:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 1rem; }
 
 .text-center {
   text-align: center; }
@@ -90,6 +97,28 @@ input[class^="btn-"]:hover {
   display: block;
   margin: 0 auto 1rem auto; }
 
+.arrow-down {
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin-top: 115px; }
+
+.arrow-down {
+  filter: invert(100%) sepia(39%) saturate(292%) hue-rotate(199deg) brightness(116%) contrast(91%); }
+
+.connect-info {
+  color: #ffbc00; }
+  .connect-info h1 {
+    font-weight: bold;
+    font-size: 2.2rem; }
+  .connect-info a,
+  .connect-info h4 {
+    font-size: 1.4rem;
+    text-decoration: initial;
+    color: #ffbc00; }
+  .connect-info a {
+    text-decoration: underline; }
+
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -100,7 +129,7 @@ input[class^="btn-"]:hover {
   background: #ffbc00;
   overflow: hidden; }
   .item .gifs {
-    height: 350px; }
+    height: 330px; }
   .item::after {
     content: "";
     position: absolute;
@@ -124,7 +153,8 @@ input[class^="btn-"]:hover {
     height: auto;
     transform: translateZ(0);
     display: block;
-    transition: 750ms cubic-bezier(0.2, 1, 0.3, 1); }
+    transition: 750ms cubic-bezier(0.2, 1, 0.3, 1);
+    border: #333 0.6px solid; }
   .item-image:before {
     content: "";
     display: block;
@@ -217,12 +247,13 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/fansipan.jpg") no-repeat center right/cover;
-  height: 100vh;
+  background: url("../img/lights.jpg") no-repeat center right/cover;
+  height: 70vh;
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 20%;
+    margin-top: -100px; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
@@ -231,7 +262,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: url("../img/fansipan.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/lights.jpg") no-repeat 20% 30%/cover;
   height: 7rem;
   border-bottom: 3px solid #ffbc00; }
 
