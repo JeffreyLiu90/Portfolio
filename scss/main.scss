@@ -404,3 +404,33 @@ img {
     }
   }
 }
+
+// Projects
+
+.project-container {
+  padding: 1.5rem;
+  margin: auto;
+  overflow: hidden;
+  height: 70vh;
+
+  div {
+    width: 30%;
+    justify-content: center;
+  }
+
+  p {
+    text-align: left;
+    margin-left: 3rem;
+  }
+}
+
+.project-title {
+  display: flex;
+  padding: 4rem;
+  font-size: 4rem;
+  line-height: 20px;
+}
+
+.hero {
+  background: -webkit-linear-gradient(top, #ffffff 0%, #dbe5e7 100%);
+}
