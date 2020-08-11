@@ -416,13 +416,23 @@ img {
   height: 70vh;
 
   img {
-    margin-top: -5.5rem;
+    align-items: flex-start;
+    padding: 1.5rem;
     height: 650px;
     width: 850px;
+    margin-top: -5rem;
   }
 }
 
 .project-info {
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+  width: 80%;
+  p {
+    text-align: left;
+  }
+}
+.project-info-right {
   margin-top: 1.2rem;
   padding: 1.2rem;
   width: 80%;
@@ -439,4 +449,8 @@ img {
 
 .hero {
   background: -webkit-linear-gradient(top, #ffffff 0%, #dbe5e7 100%);
+}
+
+.scheduler {
+  background: #70b3e2;
 }
