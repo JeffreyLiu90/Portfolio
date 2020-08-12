@@ -460,6 +460,20 @@ img {
     width: 850px;
     margin-top: -9rem; }
 
+.project-container-scheduler {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1.5rem;
+  margin: auto;
+  overflow: hidden;
+  height: 70vh; }
+  .project-container-scheduler img {
+    align-items: flex-start;
+    padding: 1.5rem;
+    height: 500px;
+    width: 650px;
+    margin-top: -2rem; }
+
 .project-info {
   margin-top: 1.2rem;
   padding: 1.2rem;
@@ -491,4 +505,11 @@ img {
   background: -webkit-linear-gradient(top, #ffffff 0%, #dbe5e7 100%); }
 
 .scheduler {
-  background: #70b3e2; }
+  background: linear-gradient(90deg, #e6edf2 9%, #e7eff5 23%, #f7f9fb 42%); }
+
+.ramen {
+  background: #88827d; }
+  .ramen img {
+    margin: auto;
+    height: 500px;
+    width: 650px; }
