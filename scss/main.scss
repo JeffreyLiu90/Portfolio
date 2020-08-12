@@ -420,14 +420,22 @@ img {
     padding: 1.5rem;
     height: 650px;
     width: 850px;
-    margin-top: -5rem;
+    margin-top: -9rem;
   }
 }
 
 .project-info {
   margin-top: 1.2rem;
   padding: 1.2rem;
-  width: 80%;
+  width: 110%;
+  p {
+    text-align: left;
+  }
+}
+.project-info-left-long {
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+  width: 110%;
   p {
     text-align: left;
   }
